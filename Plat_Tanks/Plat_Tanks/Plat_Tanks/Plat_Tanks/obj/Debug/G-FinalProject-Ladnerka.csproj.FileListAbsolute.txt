@@ -1,0 +1,66 @@
+\\dalat.org\userdata\documents\students\2016\kaladner\visual studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\bin\Debug\G-FinalProject-Ladnerka.exe.config
+\\dalat.org\UserData\Documents\Students\2016\kaladner\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\bin\Debug\G-FinalProject-Ladnerka.exe
+\\dalat.org\UserData\Documents\Students\2016\kaladner\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\bin\Debug\G-FinalProject-Ladnerka.pdb
+\\dalat.org\UserData\Documents\Students\2016\kaladner\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\G-FinalProject-Ladnerka.csprojResolveAssemblyReference.cache
+\\dalat.org\UserData\Documents\Students\2016\kaladner\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\MainWindow.g.cs
+\\dalat.org\UserData\Documents\Students\2016\kaladner\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\App.g.cs
+\\dalat.org\UserData\Documents\Students\2016\kaladner\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\G-FinalProject-Ladnerka_MarkupCompile.cache
+\\dalat.org\UserData\Documents\Students\2016\kaladner\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\G-FinalProject-Ladnerka_MarkupCompile.lref
+\\dalat.org\UserData\Documents\Students\2016\kaladner\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\MainWindow.baml
+\\dalat.org\UserData\Documents\Students\2016\kaladner\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\G-FinalProject-Ladnerka.g.resources
+\\dalat.org\UserData\Documents\Students\2016\kaladner\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\G_FinalProject_Ladnerka.Properties.Resources.resources
+\\dalat.org\UserData\Documents\Students\2016\kaladner\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\G-FinalProject-Ladnerka.csproj.GenerateResource.Cache
+\\dalat.org\UserData\Documents\Students\2016\kaladner\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\G-FinalProject-Ladnerka.exe
+\\dalat.org\UserData\Documents\Students\2016\kaladner\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\G-FinalProject-Ladnerka.pdb
+C:\Users\Karsten and Kaitlyn\Documents\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\bin\Debug\G-FinalProject-Ladnerka.exe.config
+C:\Users\Karsten and Kaitlyn\Documents\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\G-FinalProject-Ladnerka.exe
+C:\Users\Karsten and Kaitlyn\Documents\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\G-FinalProject-Ladnerka.pdb
+C:\Users\Karsten and Kaitlyn\Documents\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\bin\Debug\G-FinalProject-Ladnerka.exe
+C:\Users\Karsten and Kaitlyn\Documents\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\bin\Debug\G-FinalProject-Ladnerka.pdb
+C:\Users\Karsten and Kaitlyn\Documents\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\G-FinalProject-Ladnerka.csprojResolveAssemblyReference.cache
+C:\Users\Karsten and Kaitlyn\Documents\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\MainWindow.g.cs
+C:\Users\Karsten and Kaitlyn\Documents\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\App.g.cs
+C:\Users\Karsten and Kaitlyn\Documents\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\G-FinalProject-Ladnerka_MarkupCompile.cache
+C:\Users\Karsten and Kaitlyn\Documents\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\G-FinalProject-Ladnerka_MarkupCompile.lref
+C:\Users\Karsten and Kaitlyn\Documents\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\MainWindow.baml
+C:\Users\Karsten and Kaitlyn\Documents\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\G-FinalProject-Ladnerka.g.resources
+C:\Users\Karsten and Kaitlyn\Documents\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\G_FinalProject_Ladnerka.Properties.Resources.resources
+C:\Users\Karsten and Kaitlyn\Documents\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\G-FinalProject-Ladnerka.csproj.GenerateResource.Cache
+\\dalat.org\UserData\Documents\Students\2016\kaladner\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\bin\Debug\G-FinalProject-Ladnerka.exe.config
+\\dalat.org\UserData\Documents\Students\2016\kaladner\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\G-FinalProject-Ladnerka.exe
+\\dalat.org\UserData\Documents\Students\2016\kaladner\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\G-FinalProject-Ladnerka.pdb
+\\dalat.org\UserData\Documents\Students\2016\kaladner\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\bin\Debug\G-FinalProject-Ladnerka.exe
+\\dalat.org\UserData\Documents\Students\2016\kaladner\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\bin\Debug\G-FinalProject-Ladnerka.pdb
+\\dalat.org\UserData\Documents\Students\2016\kaladner\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\G-FinalProject-Ladnerka.csprojResolveAssemblyReference.cache
+\\dalat.org\UserData\Documents\Students\2016\kaladner\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\MainWindow.g.cs
+\\dalat.org\UserData\Documents\Students\2016\kaladner\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\App.g.cs
+\\dalat.org\UserData\Documents\Students\2016\kaladner\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\G-FinalProject-Ladnerka_MarkupCompile.cache
+\\dalat.org\UserData\Documents\Students\2016\kaladner\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\G-FinalProject-Ladnerka_MarkupCompile.lref
+\\dalat.org\UserData\Documents\Students\2016\kaladner\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\MainWindow.baml
+\\dalat.org\UserData\Documents\Students\2016\kaladner\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\G-FinalProject-Ladnerka.g.resources
+\\dalat.org\UserData\Documents\Students\2016\kaladner\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\G_FinalProject_Ladnerka.Properties.Resources.resources
+\\dalat.org\UserData\Documents\Students\2016\kaladner\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\G-FinalProject-Ladnerka.csproj.GenerateResource.Cache
+C:\Users\Karsten and Kaitlyn\Documents\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\bin\Debug\G-FinalProject-Ladnerka.exe.config
+C:\Users\Karsten and Kaitlyn\Documents\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\G-FinalProject-Ladnerka.exe
+C:\Users\Karsten and Kaitlyn\Documents\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\G-FinalProject-Ladnerka.pdb
+C:\Users\Karsten and Kaitlyn\Documents\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\bin\Debug\G-FinalProject-Ladnerka.exe
+C:\Users\Karsten and Kaitlyn\Documents\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\bin\Debug\G-FinalProject-Ladnerka.pdb
+C:\Users\Karsten and Kaitlyn\Documents\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\G-FinalProject-Ladnerka.csprojResolveAssemblyReference.cache
+C:\Users\Karsten and Kaitlyn\Documents\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\MainWindow.g.cs
+C:\Users\Karsten and Kaitlyn\Documents\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\App.g.cs
+C:\Users\Karsten and Kaitlyn\Documents\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\G-FinalProject-Ladnerka_MarkupCompile.cache
+C:\Users\Karsten and Kaitlyn\Documents\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\G-FinalProject-Ladnerka_MarkupCompile.lref
+C:\Users\Karsten and Kaitlyn\Documents\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\MainWindow.baml
+C:\Users\Karsten and Kaitlyn\Documents\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\G-FinalProject-Ladnerka.g.resources
+C:\Users\Karsten and Kaitlyn\Documents\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\G_FinalProject_Ladnerka.Properties.Resources.resources
+C:\Users\Karsten and Kaitlyn\Documents\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\obj\Debug\G-FinalProject-Ladnerka.csproj.GenerateResource.Cache
+C:\Users\Karsten and Kaitlyn\Documents\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Users\Karsten and Kaitlyn\Documents\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\bin\Debug\de\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Karsten and Kaitlyn\Documents\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\bin\Debug\es\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Karsten and Kaitlyn\Documents\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\bin\Debug\fr\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Karsten and Kaitlyn\Documents\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\bin\Debug\it\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Karsten and Kaitlyn\Documents\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\bin\Debug\ja\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Karsten and Kaitlyn\Documents\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\bin\Debug\ko\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Karsten and Kaitlyn\Documents\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\bin\Debug\ru\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Karsten and Kaitlyn\Documents\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\bin\Debug\zh-Hans\Microsoft.Expression.Drawing.resources.dll
+C:\Users\Karsten and Kaitlyn\Documents\Visual Studio 2015\Projects\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\G-FinalProject-Ladnerka\bin\Debug\zh-Hant\Microsoft.Expression.Drawing.resources.dll

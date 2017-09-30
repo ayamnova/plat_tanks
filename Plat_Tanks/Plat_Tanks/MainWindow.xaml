@@ -1,0 +1,120 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Plat_Tanks"
+        xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing" x:Class="Plat_Tanks.MainWindow"
+        mc:Ignorable="d"
+        Title="Tanks" Height="350" Width="525" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowState="Maximized" KeyDown="Window_KeyDown" KeyUp="Window_KeyUp">
+    <Window.Resources>
+        <Storyboard x:Key="victoryStoryboard">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="endMissile">
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Visible}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="endMissile">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="-1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="endMissile">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="170"/>
+            </DoubleAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="boom">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.7" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:1.3" Value="{x:Static Visibility.Visible}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="boom">
+                <DiscreteDoubleKeyFrame KeyTime="0:0:0.7" Value="0.225"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="0.995"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="boom">
+                <DiscreteDoubleKeyFrame KeyTime="0:0:0.7" Value="0.329"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="boom">
+                <DiscreteDoubleKeyFrame KeyTime="0:0:0.7" Value="-1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="-1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="boom">
+                <DiscreteDoubleKeyFrame KeyTime="0:0:0.7" Value="78"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="screenRectangle">
+                <DiscreteObjectKeyFrame KeyTime="0:0:1.4" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:1.6" Value="{x:Static Visibility.Visible}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="screenRectangle">
+                <EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.6" Value="0.8"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </Window.Resources>
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+        </EventTrigger>
+    </Window.Triggers>
+    <Window.Background>
+        <ImageBrush ImageSource="/assets/skybackground.jpg" />
+    </Window.Background>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="265*"/>
+            <RowDefinition Height="57*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Image x:Name="groundLeftImage" Source="assets/ground.png" Stretch="Fill" Grid.Row="1"/>
+        <Image x:Name="groundCenterLeftImage" Grid.Column="2" Source="assets/ground.png" Stretch="Fill" Grid.Row="1"/>
+        <Image x:Name="groundRightImage" Grid.Column="5" Source="assets/ground.png" Stretch="Fill" Grid.Row="1"/>
+        <Image x:Name="groundLeftCenterImage" Source="assets/ground.png" Stretch="Fill" Grid.Column="1" Grid.Row="1"/>
+        <Image x:Name="groundCenterRightImage" Source="assets/ground.png" Stretch="Fill" Grid.Column="3" Grid.Row="1"/>
+        <Image x:Name="groundRightCenterImage" Grid.Column="4" Source="assets/ground.png" Stretch="Fill" Grid.Row="1"/>
+        <Image x:Name="tank1Body" Margin="7,0,0,0" Source="assets/tank body right.png" Stretch="Fill" Width="53.29" Height="27" VerticalAlignment="Bottom" HorizontalAlignment="Left" />
+        <Image x:Name="tank1Gun" Height="8" Margin="41.75,0,0,19.25" Source="assets/tank gun right.png" Stretch="Fill" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="36" RenderTransformOrigin="0.071,0.732">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="tank2Body" Grid.Column="5" Margin="0,0,10,0" Source="assets/tank body left.png" Stretch="Fill" Width="53.29" Height="27" VerticalAlignment="Bottom" HorizontalAlignment="Right"/>
+        <Image x:Name="tank2Gun" Height="8" Margin="0,0,43.581,19.166" Source="assets/tank gun left.png" Stretch="Fill" VerticalAlignment="Bottom" Grid.Column="5" HorizontalAlignment="Right" Width="36"/>
+        <Image x:Name="tank1Missile" Margin="68.99,0,0,18.552" Source="missile left.png" Stretch="Fill" Height="7.298" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" Width="12.804" Visibility="Hidden"/>
+        <Image x:Name="tank2Missile" Grid.Column="5" Margin="0,0,73.045,17.844" Source="assets/missile right.png" Stretch="Fill" Height="7.298" VerticalAlignment="Bottom" Width="12.804" d:LayoutOverrides="VerticalAlignment" HorizontalAlignment="Right" Visibility="Hidden"/>
+        <Image x:Name="endMissile" Grid.Column="3" Margin="-34.5,10,0,0" Source="assets/missileDown.png" Stretch="Fill" Height="101" VerticalAlignment="Top" HorizontalAlignment="Left" Width="70" Visibility="Hidden" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="boom" Grid.ColumnSpan="6" Margin="0,0,0,0" Source="assets/bigExplosion.png" Stretch="Fill" Grid.RowSpan="2" Visibility="Hidden" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Rectangle x:Name="screenRectangle" Fill="Black" Margin="-0.815,-1.699,-1.787,-0.573" Stroke="Black" Grid.ColumnSpan="6" Grid.RowSpan="2" Opacity="0.8" Visibility="Hidden"/>
+        <TextBlock x:Name="winnerTextBlock" Margin="29.037,86.96,42.503,117.08" TextWrapping="Wrap" Grid.ColumnSpan="6" FontFamily="Tekton Pro Ext" FontSize="64" Foreground="White" TextAlignment="Center" Visibility="Hidden"><Run Text="Player 1 Wins!"/></TextBlock>
+        <TextBlock x:Name="Display" Margin="40.63,50.746,21.451,0" TextWrapping="Wrap" Text="Player 1 Turn" VerticalAlignment="Top" FontFamily="Tekton Pro Ext" FontSize="64" Grid.ColumnSpan="6" TextAlignment="Center" Visibility="Hidden" Foreground="White"/>
+        <TextBlock x:Name="subDisplay" Margin="27,176,34,61" TextWrapping="Wrap" Text="Press Any Key To Start" TextAlignment="Center" FontFamily="Tekton Pro Ext" FontSize="24" Grid.ColumnSpan="6" Foreground="White" Visibility="Hidden"/>
+        <TextBlock x:Name="timeDisplay" Grid.Column="4" Margin="-11.331,28.116,18.895,0" TextWrapping="Wrap" Text="30.00 Seconds" VerticalAlignment="Top" FontFamily="Tekton Pro Ext" FontSize="24" Grid.ColumnSpan="2" HorizontalAlignment="Right" Width="165.436" TextAlignment="Right"/>
+    </Grid>
+</Window>

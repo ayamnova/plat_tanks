@@ -1,0 +1,63 @@
+﻿<Window x:Class="Plat_Tanks.StartWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Plat_Tanks"
+        mc:Ignorable="d"
+        Title="Tanks" Height="350" Width="525" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowState="Maximized">
+    <Window.Background>
+        <ImageBrush ImageSource="/assets/skybackground.jpg" />
+    </Window.Background>
+    <Grid>
+        <Grid Name="HomeGrid" Visibility="Visible">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="88*"/>
+                <RowDefinition Height="71*"/>
+                <RowDefinition Height="64*"/>
+                <RowDefinition Height="99*"/>
+            </Grid.RowDefinitions>
+            <TextBlock x:Name="title" Margin="186.311,17.961,183.947,-6.897" TextWrapping="Wrap" Text="Tanks" FontFamily="Tekton Pro Ext" FontSize="64" d:LayoutOverrides="Width, Height" TextAlignment="Center"/>
+            <Button x:Name="hotSeatButton" Content="Hot Seat" FontFamily="Tekton Pro Cond" FontSize="40" Click="hotSeatButton_Click" Margin="150,2,139,12" Grid.Row="2">
+                <Button.Background>
+                    <ImageBrush/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="instructionsButton" Content="Instructions&#xD;&#xA;" Margin="150,8,139,10" FontFamily="Tekton Pro Cond" FontSize="40" Click="instructionsButton_Click" Grid.Row="1">
+                <Button.Background>
+                    <ImageBrush/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="internetButton" Content="Internet" Margin="175,39,197,10" FontFamily="Tekton Pro Cond" FontSize="40" Click="internetButton_Click" Grid.Row="3" Visibility="Hidden">
+                <Button.Background>
+                    <ImageBrush/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="highScoresButton" Content="High Scores" Margin="150,5,139,60" Grid.Row="3" FontFamily="Tekton Pro Cond" FontSize="40" Background="{x:Null}" Click="highScoresButton_Click"/>
+        </Grid>
+        <Grid Name="internetConnectGrid" Visibility="Hidden">
+            <Button x:Name="hostButton" Content="Host" Margin="203,48,172,0" Click="hostButton_Click" Height="42" VerticalAlignment="Top"/>
+            <Button x:Name="connectButton" Content="Connect" Margin="203,146,172,0" Click="connectButton_Click" Height="44" VerticalAlignment="Top"/>
+            <TextBox x:Name="ipAddressTextBox" Height="42" Margin="78,0,143,45" TextWrapping="Wrap" Text="10.70.1.49" VerticalAlignment="Bottom" FontSize="29.333" FontFamily="Tahoma"/>
+            <Button x:Name="connectToIP" Content="Connect to this IP" HorizontalAlignment="Right" Margin="0,0,31,45" VerticalAlignment="Bottom" Width="102" Height="43" Click="connectToIP_Click"/>
+        </Grid>
+        <Grid Name="highScoresGrid" Visibility="Hidden">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+            <Button x:Name="highScoresBackButton" Content="Back" Margin="131,32,125,10" Background="{x:Null}" FontFamily="Tekton Pro" FontSize="53.333" Click="highScoresBackButton_Click" Grid.Row="3"/>
+            <TextBlock x:Name="highestScoreText" Margin="104,12,80,11" TextWrapping="Wrap" Text="0 Shots" FontFamily="Tekton Pro" FontSize="40" TextAlignment="Center"/>
+            <TextBlock x:Name="secondHighestScoreText" Margin="104,10,80,13" TextWrapping="Wrap" Text="0 Shots" FontFamily="Tekton Pro" FontSize="40" Grid.Row="1" TextAlignment="Center"/>
+            <TextBlock x:Name="thirdHighestScoreText" Margin="104,14,80,10" TextWrapping="Wrap" Text="0 Shots" FontFamily="Tekton Pro" FontSize="40" Grid.Row="2" TextAlignment="Center"/>
+
+        </Grid>
+        <Grid Name="instructionsGrid" Visibility="Hidden">
+            <Button x:Name="instructionsBackButton" Content="Back" Margin="55,0,29,16" Background="{x:Null}" FontFamily="Tekton Pro Cond" FontSize="53.333" Click="instructionsBackButton_Click" Height="97" VerticalAlignment="Bottom"/>
+            <TextBlock x:Name="instructionsText" Margin="55,0,29,118" TextWrapping="Wrap" Text="text" VerticalAlignment="Bottom" Height="179" FontFamily="Tekton Pro" FontSize="26.667"/>
+
+        </Grid>
+    </Grid>
+</Window>
